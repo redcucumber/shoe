@@ -27,9 +27,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.35"
-     inkscape:cx="-975.00226"
-     inkscape:cy="628.63806"
+     inkscape:zoom="3"
+     inkscape:cx="98.997009"
+     inkscape:cy="128.00424"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -39,7 +39,7 @@
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:window-width="1273"
+     inkscape:window-width="1304"
      inkscape:window-height="746"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
@@ -52,7 +52,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -141,30 +141,30 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="955.23956"
-       y="1346.4727"
+       x="956.90625"
+       y="1341.4727"
        id="text4463"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
-         id="tspan4465"
-         x="955.23956"
-         y="1346.4727"
-         style="font-size:6.25000048px">Help you to offer and to </tspan><tspan
-         sodipodi:role="line"
-         x="955.23956"
-         y="1354.2852"
+         x="956.90625"
+         y="1341.4727"
          style="font-size:6.25000048px"
-         id="tspan4467">find hot companionship</tspan><tspan
+         id="tspan3364">Helps you to offer and </tspan><tspan
          sodipodi:role="line"
-         x="955.23956"
-         y="1362.0977"
+         x="956.90625"
+         y="1349.2852"
          style="font-size:6.25000048px"
-         id="tspan4469">with mutual benefits</tspan><tspan
+         id="tspan3370">to find hot partners </tspan><tspan
          sodipodi:role="line"
-         x="955.23956"
-         y="1369.9102"
+         x="956.90625"
+         y="1357.0977"
          style="font-size:6.25000048px"
-         id="tspan4471">on-the-go.</tspan></text>
+         id="tspan3366">with mutual benefits</tspan><tspan
+         sodipodi:role="line"
+         x="956.90625"
+         y="1364.9102"
+         style="font-size:6.25000048px"
+         id="tspan3372">on-the-go.</tspan></text>
     <rect
        rx="0"
        ry="0"

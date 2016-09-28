@@ -1,5 +1,5 @@
-@import url("http://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css");
-@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,800,800italic");
+@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css");
+@import url("//fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,800,800italic");
 
 /* Reset */
 
@@ -1471,7 +1471,18 @@
 		text-transform: uppercase;
 	}
 
-    h1, h2, h3, h4, h5, h6 {
+    h1 {
+
+        color: #ffffff;
+		letter-spacing: 0.225em;
+		line-height: 1em;
+		margin: 0 0 1em 0;
+		text-transform: uppercase;
+    }
+
+    
+
+    h2, h3, h4, h5, h6 {
 		color: #000000;
 		/*font-weight: 800;*/
 		letter-spacing: 0.225em;
@@ -3332,7 +3343,7 @@
 					}
 
 		#menu .close {
-			background-image: url("images/close.svg");
+			background-image: url("//alpha.incall.club/images/close.svg");
 			background-position: 4.85em 1em;
 			background-repeat: no-repeat;
 			border: 0;
@@ -3377,9 +3388,9 @@
 		-ms-transition: background-color 0.2s ease;
 		transition: background-color 0.2s ease;
 		background: #000000;
-		height: 3em;
+		height: 3.7em;
 		left: 0;
-		line-height: 3em;
+		line-height: 3.5em;
 		position: fixed;
 		top: 0;
 		width: 100%;
@@ -3392,7 +3403,7 @@
 			-ms-transition: opacity 0.2s ease;
 			transition: opacity 0.2s ease;
 			height: inherit;
-			left: 1.25em;
+			left: 4.5em;
 			line-height: inherit;
 			position: absolute;
 			top: 0;
@@ -3405,13 +3416,26 @@
 				line-height: inherit;
 			}
 
-				@media screen and (max-width: 736px) {
+                @media screen and (max-width: 460px) {
 
-					#header h1 a {
-						font-size: 0.8em;
+					#header h1 {
+						display: none;
 					}
 
 				}
+
+           #header img {
+				border-radius: 100%;
+				display: inline-block;
+				height: 3em;
+				margin-left: 0.5em;
+				vertical-align: middle;
+				width: 3em;     
+                -moz-transition: opacity 0.2s ease;
+			    -webkit-transition: opacity 0.2s ease;
+			    -ms-transition: opacity 0.2s ease;
+			    transition: opacity 0.2s ease;
+			}
 
 		#header nav {
 			height: inherit;
@@ -3453,7 +3477,7 @@
 						}
 
 							#header nav > ul > li > a.menuToggle:after {
-								background-image: url("images/bars.svg");
+								background-image: url("//alpha.incall.club/images/bars.svg");
 								background-position: right center;
 								background-repeat: no-repeat;
 								content: '';
@@ -3485,10 +3509,23 @@
 
 					#header nav > ul > li:first-child {
 						margin-left: 0;
-					}
+					}      
 
+        #header.alt h1 {
+				-moz-pointer-events: none;
+				-webkit-pointer-events: none;
+				-ms-pointer-events: none;
+				pointer-events: none;
+				opacity: 0;
+        }
 
-
+        #header.alt img {
+				-moz-pointer-events: none;
+				-webkit-pointer-events: none;
+				-ms-pointer-events: none;
+				pointer-events: none;
+				opacity: 0;
+        }
 
 
 /* CTA */
@@ -3709,7 +3746,7 @@
 	}
 
     .goto-next:before {
-	        background-image: url("images/arrow.svg");
+	        background-image: url("//alpha.incall.club/images/arrow.svg");
 			background-position: center center;
 			background-repeat: no-repeat;
 			background-size: contain;
@@ -3739,7 +3776,7 @@
     .goto-next-2:after {
 			
      
-            background-image: url("images/blackarrow.svg");
+            background-image: url("//alpha.incall.club/images/blackarrow.svg");
 			background-position: center center;
 			background-repeat: no-repeat;
 			background-size: contain;
@@ -3840,3 +3877,73 @@
         padding: 6em 1.5625em 5.25em 1.5625em;
     }
 }
+
+/*Speech banner*/
+
+.speech-banner {
+  display:block;
+  position: absolute;
+  top: 1em;left: 1em;
+  z-index: 20000; 
+  color: #FFFFFF;
+  background-color:#d02020;
+  border-radius: 1em; 
+  border-style: solid;
+  border-color: #FFFFFF; 
+  border-width: 2px;
+  padding: 0.5em;
+  text-align: center;
+  font-style: italic;
+  font-size: 0.8em;
+}
+
+
+.speech-banner:hover
+{
+  border-color: #FFFFFF;
+  color: #ffffff !important;    
+}
+
+
+.speech-banner:before {
+  content: ' ';
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: 0.8em;
+  bottom: -1.6em;
+  border: 0.8em solid;
+  border-color: #FFFFFF transparent transparent #FFFFFF;  
+}
+/*
+.speech-banner:hover:before
+{
+  border-color: #e44c65 transparent transparent #e44c65;
+}*/
+
+.speech-banner:after {
+  content: ' ';
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: 0.91em;
+  bottom: -1.3em;
+  border: 0.85em solid;
+  border-color: #d02020 transparent transparent #d02020;
+}
+
+
+@media screen and (max-width: 460px) {
+    .speech-banner {
+        left: 50%;
+        top: 70%;
+        transform: translate(-50%, 0%);
+        padding: 0.4em;        
+        border-width: 1px;
+        line-height: normal;
+    }
+}
+
+
+
+
