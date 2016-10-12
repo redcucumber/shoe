@@ -17,7 +17,10 @@
    id="svg4213"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="s3.svg">
+   sodipodi:docname="s3.svg"
+   inkscape:export-filename="D:\art2\email\s3.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
   <defs
      id="defs4215" />
   <sodipodi:namedview
@@ -28,8 +31,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="3"
-     inkscape:cx="98.997009"
-     inkscape:cy="128.00424"
+     inkscape:cx="49.163679"
+     inkscape:cy="128.00421"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -39,7 +42,7 @@
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:window-width="1304"
+     inkscape:window-width="1303"
      inkscape:window-height="746"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
@@ -52,7 +55,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
