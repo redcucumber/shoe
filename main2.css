@@ -3745,20 +3745,16 @@
 /* Goto Next */
 
 	.goto-next {        		            
-		bottom: 1em;		
-		height: 5em;
 		overflow: hidden;
 		text-indent: 10em;
 		white-space: nowrap;
 		z-index: 1;
-        flex: 0 1 5em;
-        
+        flex: 0 1 2em;                
         background-image: url("images/arrow.svg");
 		background-position: center center;
 		background-repeat: no-repeat;
 		background-size: contain;
-        width: 2em;
-		height: 1.5em;
+        width: 2em;		
 	}
 
 /* Large */
