@@ -24,8 +24,11 @@ font-style: normal;
 margin-left: 20px;
 }
 
-.incall-eye-mask:before { content: "\f100"; }
-.incall-cell-phone:before { content: "\f101"; }
-.incall-watch:before { content: "\f102"; }
-.incall-magic-wand:before { content: "\f103"; }
-.incall-coins-with-number-1:before { content: "\f104"; }
+.incall-close-envelope:before { content: "\f100"; }
+.incall-telegram:before { content: "\f101"; }
+.incall-twitter-logo-silhouette:before { content: "\f102"; }
+.incall-coins-with-number-1:before { content: "\f103"; }
+.incall-eye-mask:before { content: "\f104"; }
+.incall-watch:before { content: "\f105"; }
+.incall-cell-phone:before { content: "\f106"; }
+.incall-magic-wand:before { content: "\f107"; }
