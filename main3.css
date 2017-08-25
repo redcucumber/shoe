@@ -1,6 +1,6 @@
-@import url("http://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css");
-@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,800,800italic");
-@import url("fonts/incall.css");
+/*@import url("http://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css");*/
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,800,800italic");
+@import url("http://alpha.incall.club/fonts/incall.css");
 
 /* Reset */
 
@@ -2007,7 +2007,7 @@
 		position: relative;
 	}
 
-		.icon:before {
+	.icon:before {
 			-moz-osx-font-smoothing: grayscale;
 			-webkit-font-smoothing: antialiased;
 			font-family: Incall;
@@ -2015,13 +2015,17 @@
 			font-weight: normal;
 			font-size: 48px;
 			text-transform: none !important;
-		}
+	}
 
-		.icon > .label {
+
+
+	.icon > .label {
 			display: none;
-		}
+	}
 
-		.icon.major {
+	
+
+	.icon.major {
 			-moz-transform: rotate(-45deg);
 			-webkit-transform: rotate(-45deg);
 			-ms-transform: rotate(-45deg);
@@ -2036,7 +2040,7 @@
 			width: calc(3em + 2px);
 		}
 
-			.icon.major:before {
+	.icon.major:before {
 				-moz-transform: rotate(45deg);
 				-webkit-transform: rotate(45deg);
 				-ms-transform: rotate(45deg);
@@ -2045,7 +2049,7 @@
 				font-size: 1.5em;
 			}
 
-			@media screen and (max-width: 736px) {
+	@media screen and (max-width: 736px) {
 
 				.icon.major {
 					font-size: 1em;
@@ -2064,6 +2068,8 @@
 		.icon.style3 {
 			color: #e44c65;
 		}
+
+
 
 /* Image */
 
@@ -3625,7 +3631,7 @@
 		text-align: center;
 	}
 
-		#footer .icons {
+		#footer > ul .icon:before {
 			font-size: 1.25em;
 		}
 

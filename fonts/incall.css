@@ -21,7 +21,6 @@
   font-family: incall;
         font-size: 20px;
 font-style: normal;
-margin-left: 20px;
 }
 
 .incall-close-envelope:before { content: "\f100"; }
