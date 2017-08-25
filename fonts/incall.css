@@ -1,0 +1,31 @@
+@font-face {
+  font-family: "Incall";
+  src: url("//alpha.incall.club/fonts/incall.eot");
+  src: url("//alpha.incall.club/fonts/incall.eot?#iefix") format("embedded-opentype"),
+       url("//alpha.incall.club/fonts/incall.woff") format("woff"),
+       url("//alpha.incall.club/fonts/incall.ttf") format("truetype"),
+       url("//alpha.incall.club/fonts/incall.svg#incall") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Incall";
+    src: url("//alpha.incall.club/fonts/incall.svg#incall") format("svg");
+  }
+}
+
+[class^="incall-"]:before, [class*=" incall-"]:before,
+[class^="incall-"]:after, [class*=" incall-"]:after {   
+  font-family: incall;
+        font-size: 20px;
+font-style: normal;
+margin-left: 20px;
+}
+
+.incall-eye-mask:before { content: "\f100"; }
+.incall-cell-phone:before { content: "\f101"; }
+.incall-watch:before { content: "\f102"; }
+.incall-magic-wand:before { content: "\f103"; }
+.incall-coins-with-number-1:before { content: "\f104"; }
